@@ -1,0 +1,68 @@
+/* Popin font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* basic-css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* css start */
+.container-top, .container{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    margin-top: 60px;
+}
+main{
+    background-color: #fff;
+}
+.title-heading{
+    font-size: 24px;
+}
+.banner-section{
+    padding: 80px 0;
+}
+.banner-items{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+   
+
+}
+.banner-item{
+    
+}
+.banner-item{
+
+}
+.banner-img{
+      transition: transform 1s linear;
+}
+.banner-img:hover{
+      transform: scale(1.3);
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 900;
+}
+.banner-p{
+    font-size: 22px;
+    color: #000;
+    margin: 10px 0;
+}
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0;
+    background-color: #e1111e;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
